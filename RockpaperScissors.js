@@ -29,6 +29,12 @@ for (let i = 0; i < choices.length; i++) {
   gameGrid.appendChild(button)
 }
 
+
+
+
+
+
+
 const getResult = () => {
   switch (userChoice + computerChoice) {
     case 'scissorspaper':
@@ -48,3 +54,4 @@ const getResult = () => {
     break
   }
 }
+
