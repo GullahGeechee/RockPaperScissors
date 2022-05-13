@@ -3,6 +3,10 @@ const computerChoiceDisplay = document.createElement('h1')
 const resultDisplay = document.createElement('h1')
 //const reset = document.createElement('h1')
 const gameGrid = document.getElementById('game')
+let rockkiss = new Audio("rockkiss.wav");
+let sneezewav = new Audio('sneeze.wav')
+let  poawpoaw = new Audio('poaw.wav')
+
 
 userChoiceDisplay.classList.add("resetbtn")
 
@@ -18,6 +22,14 @@ let computerChoice
 
 const handleClick = (e) => {
   userChoice = e.target.id
+  if (userChoice == choices[0]){
+    rockkiss.play()
+  } 
+  if (userChoice == choices[1]){
+    sneezewav.play()
+  }  if (userChoice == choices[2]){
+    poawpoaw.play()
+  } 
   userChoiceDisplay.innerHTML = 'User choice: ' + userChoice
   generateComputerChoice()
   getResult()
@@ -109,12 +121,15 @@ button2 = function reset() {
 const getResult = () => {
   switch (userChoice + computerChoice) {
     case 'scissorspaper':
+      //rockSound.play()
     case 'rockscissors':
+      //rockSound.play()
     case 'paperrock':
+      //rockkiss.play()
       resultDisplay.innerHTML = "YOU WIN!"
       userScore++ 
       checkWinner()
-
+      
       break
     case 'paperscissors':
     case 'scissorsrock':
