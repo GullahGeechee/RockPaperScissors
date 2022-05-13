@@ -4,7 +4,7 @@ const resultDisplay = document.createElement('h1')
 //const reset = document.createElement('h1')
 const gameGrid = document.getElementById('game')
 
-//h1.classList.add("resetbtn")
+userChoiceDisplay.classList.add("resetbtn")
 
 //console.log(reset) 
 
@@ -21,7 +21,7 @@ const handleClick = (e) => {
   userChoiceDisplay.innerHTML = 'User choice: ' + userChoice
   generateComputerChoice()
   getResult()
-  checkWinner()
+  //checkWinner()
 }
 
 const generateComputerChoice = () => {
@@ -42,19 +42,29 @@ for (let i = 0; i < choices.length; i++) {
 
 let userScore = 0
 let cpuScore = 0
+let winner = ''
 function checkWinner() {
 
   if (userScore >=2){
+   winner = 'user'
     console.log("user won")
+   alertMe(winner)
   } else if (cpuScore >=2){
+    //alertMe(winner)
+   winner = 'cpu'
+   alertMe(winner)
     console.log('cpu won')
   } 
 }
 
-function alertMe() {
-  //checkWinner()
-  alert('You won the Round')
 
+function alertMe(winner) {
+  //checkWinner()
+  //let winner = champ
+  //alert(`${winner} wins`)
+  setTimeout(
+    alert(`${winner} wins`)
+  , 5000)
 
 }
 
@@ -69,20 +79,11 @@ refresh.textContent = 'Refresh'
 refresh.addEventListener('click', function(){
 userScore = 0
 cpuScore = 0 
-
-
+userChoiceDisplay.textContent = ''
+computerChoiceDisplay.textContent = ''
+resultDisplay.textContent = ''
 })
 gameGrid.append(refresh)
-
-
-
-
-
-
-
-
-
-
 
 //const resetbtn = document.createElement('button')
 
@@ -105,9 +106,6 @@ button2 = function reset() {
   }
 }*/
 
-
-
-
 const getResult = () => {
   switch (userChoice + computerChoice) {
     case 'scissorspaper':
@@ -116,6 +114,7 @@ const getResult = () => {
       resultDisplay.innerHTML = "YOU WIN!"
       userScore++ 
       checkWinner()
+
       break
     case 'paperscissors':
     case 'scissorsrock':
@@ -200,3 +199,31 @@ if userWins===2 {
     alert('you win')
 }
 */
+
+
+/*
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}*/
