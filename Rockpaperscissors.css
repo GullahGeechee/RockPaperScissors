@@ -1,14 +1,79 @@
-.resetbtn {
-    color: red
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 
+}
+
+
+
+body {          
+    background-image: url(./rockpaperscissorspic/longKawaii.jpeg);
+    background-position: none;
+    background-size: cover;
+    font-family : san-serif;
+
+   
 
 
 
 
 }
 
+div {
 
 
+margin: 70px;
+padding-top: 100px;
+border: solid;
+height: 150px;
+}
+
+button {
+font-size: 40px;
+padding: 10px;
+border-radius: 10px;
+margin: 20px;
+}
 
 
+h1 {
+    justify-content: center;
+}
+
+ .cpu {
+     color: Yellow;
+    height: 20vh;
+ }
+.result { 
+    color: red;
+  
+}
+
+.user{
+    color:blueviolet;
+
+
+}
+
+.refreshbtn {
+   
+   
+
+    
+    
+}
+
+.rock {
+  
+}
+
+.paper {
+ 
+}
+
+.scissors {
+  
+
+}
   

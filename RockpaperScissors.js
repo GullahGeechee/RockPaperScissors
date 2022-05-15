@@ -6,13 +6,30 @@ const gameGrid = document.getElementById('game')
 let rockkiss = new Audio("rockkiss.wav");
 let sneezewav = new Audio('sneeze.wav')
 let  poawpoaw = new Audio('poaw.wav')
+let winsound = new Audio('test.mp3')
 
 
-userChoiceDisplay.classList.add("resetbtn")
+userChoiceDisplay.classList.add("user")
+computerChoiceDisplay.classList.add('cpu')
+resultDisplay.classList.add('result')
 
 //console.log(reset) 
 
 gameGrid.append(userChoiceDisplay, computerChoiceDisplay, resultDisplay, /*reset*/)
+
+
+
+//needed in js for volume 
+
+  /*var music = document.getElementById("audio");
+  audio.volume = 0.2;*/
+
+
+
+
+
+
+
 
 
 
@@ -75,9 +92,9 @@ function alertMe(winner) {
   //let winner = champ
   //alert(`${winner} wins`)
   setTimeout(
-    alert(`${winner} wins`)
+    alert(`${winner} has won 2 out of 3`)
   , 5000)
-
+winsound.play()
 }
 
  
@@ -86,6 +103,7 @@ function alertMe(winner) {
 //let refreshbtn = userScore && cpuScore===0;
 //console.log(refreshbtn)
 let refresh = document.createElement('button')
+refresh.classList.add('refreshbtn')
 //refresh.id = refresh
 refresh.textContent = 'Refresh'
 refresh.addEventListener('click', function(){
