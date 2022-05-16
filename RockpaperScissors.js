@@ -1,12 +1,13 @@
-const userChoiceDisplay = document.createElement('h3')
-const computerChoiceDisplay = document.createElement('h3')
+const userChoiceDisplay = document.createElement('h2')
+const computerChoiceDisplay = document.createElement('h2')
 const resultDisplay = document.createElement('h1')
 //const reset = document.createElement('h1')
 const gameGrid = document.getElementById('game')
-let rockkiss = new Audio("rockkiss.wav");
-let sneezewav = new Audio('sneeze.wav')
-let  poawpoaw = new Audio('poaw.wav')
-let winsound = new Audio('test.mp3')
+let rockkiss = new Audio("bubbles1.wav");
+let sneezewav = new Audio('bubbles2.wav')
+let  poawpoaw = new Audio('bubbles3.wav')
+let winsound = new Audio('bing.mp3')
+let sprinkles = new Audio('sprinkles.wav')
 
 
 userChoiceDisplay.classList.add("user")
@@ -97,7 +98,7 @@ function alertMe(winner) {
   //let winner = champ
   //alert(`${winner} wins`)
   setTimeout(
-    alert(`${winner} has won 2 out of 3`)
+    alert(`${winner} has won 2 out of 3 Please refresh`)
   , 5000)
 winsound.play()
 }
@@ -117,6 +118,7 @@ cpuScore = 0
 userChoiceDisplay.textContent = ''
 computerChoiceDisplay.textContent = ''
 resultDisplay.textContent = ''
+sprinkles.play()
 })
 gameGrid.append(refresh)
 
@@ -134,7 +136,6 @@ gameGrid.append(refresh)
 //let button2 = userChoice && cpuScore==0
 button2 = function reset() {
   if (userScore >=2 || cpuScore >=2){
-
     button2.textContent = "Reset Game"
     button2.addEventListener('click', )
     gameGrid
@@ -176,31 +177,26 @@ const getResult = () => {
 
 
 /*
-
 Pseudo code 
 const userChoiceDisplay = document.createElement('h1')
 const computerChoiceDisplay = document.createElement('h1')
 const resultDisplay = document.createElement('h1')
 const gameGrid = document.getElementById('game')
 gameGrid.append(userChoiceDisplay, computerChoiceDisplay, resultDisplay)
-
 const choices = ['rock', 'paper', 'scissors']
 let userChoice
 let computerChoice
-
 const handleClick = (e) => {
   userChoice = e.target.id
   userChoiceDisplay.innerHTML = 'User choice: ' + userChoice
   generateComputerChoice()
   getResult()
 }
-
 const generateComputerChoice = () => {
   const randomChoice = choices[Math.floor(Math.random() * choices.length)]
   computerChoice = randomChoice
   computerChoiceDisplay.innerHTML = 'Computer choice: ' + computerChoice
 }
-
 for (let i = 0; i < choices.length; i++) {
   const button = document.createElement('button')
   button.id = choices[i] // you can delete this id you want to use e.target.HTML in the handleClick
@@ -247,26 +243,22 @@ if userWins===2 {
 /*
 // Get the modal
 var modal = document.getElementById("myModal");
-
 // Get the button that opens the modal
 var btn = document.getElementById("myBtn");
-
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
-
 // When the user clicks on the button, open the modal
 btn.onclick = function() {
   modal.style.display = "block";
 }
-
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
   modal.style.display = "none";
 }
-
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
   }
 }*/
+

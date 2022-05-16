@@ -1,10 +1,13 @@
-
+@font-face {
+    font-family: 'coffee';
+    src: url(rockpaperscissorspic/Coffee\ Extra.ttf);
+}
 
 * { 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
+    font-family: coffee;
 }
 
 #game{
@@ -18,7 +21,7 @@ body {
     background-position: none;
     background-size: container;
     background-size: center; 
-    font-family: san-serif;
+    font-family: coffee;
     background-repeat: none;
     height: 100vh;
     width: 100vw;
@@ -38,13 +41,14 @@ padding-top: 100px;
 button {
 display: inline-block;
 font-size: 30px;
-box: 20px 20px 10px rgb(240, 160, 229);
+/* box: 20px 20px 10px rgb(240, 160, 229); */
 padding: 10px;
 border-radius: 10px;
 margin: 20px;
 border: 3px solid rgb(198, 155, 220);
 
 box-shadow: 25px 10px 15px rgb(119, 82, 193);
+text-decoration-color: deeppink;
 
 }
 
@@ -57,7 +61,7 @@ h1 {
    
     text-align: center;
     justify-content: center; 
-    padding-bottom: ;
+    /* padding-bottom: ; */
 
 }
 
@@ -66,20 +70,30 @@ h1 {
      display: inline-block;
      padding-bottom: 500px;
      padding-right: 100px;
+     font-size: large;
+     text-shadow: 2px 2px 5px yellow;
  }
  
 .result { 
     color: rgb(154, 62, 196);
   padding-bottom: 200px;
+  font-size: xx-large;
+  text-shadow: 2px 2px 5px yellow;
 } 
 
 .user{
-    color:blueviolet;
+    color:rgb(253, 0, 186);
     display: inline-block;
     padding-left: 200px;
     padding-right: 450px;
     padding-bottom: 300px;
+    font-size: large;
+    text-shadow: 2px 2px 5px yellow;
+    border-style: dotted dashed solid double rgb(253, 253, 165);
+
 }
+
+
 
 .refreshbtn {
    
@@ -101,4 +115,9 @@ h1 {
   
 
 }
-  
+#title {
+    font-size: xx-large;
+    text-shadow: 2px 2px 5px whitesmoke;
+    color:rgb(253, 0, 186);
+    background-color: rgb(253, 253, 165);
+  }
