@@ -1,3 +1,5 @@
+
+
 * { 
     margin: 0;
     padding: 0;
@@ -5,16 +7,22 @@
 
 }
 
-
+#game{
+text-align: center; 
+padding-top: 300px;
+padding-bottom: 200px;
+} 
 
 body {          
     background-image: url(./rockpaperscissorspic/longKawaii.jpeg);
     background-position: none;
-    background-size: cover;
-    font-family : san-serif;
-
+    background-size: container;
+    background-size: center; 
+    font-family: san-serif;
+    background-repeat: none;
+    height: 100vh;
+    width: 100vw;
    
-
 
 
 
@@ -22,38 +30,55 @@ body {
 
 div {
 
-
 margin: 70px;
 padding-top: 100px;
-border: solid;
-height: 150px;
+
 }
 
 button {
-font-size: 40px;
+display: inline-block;
+font-size: 30px;
+box: 20px 20px 10px rgb(240, 160, 229);
 padding: 10px;
 border-radius: 10px;
 margin: 20px;
+border: 3px solid rgb(198, 155, 220);
+
+box-shadow: 25px 10px 15px rgb(119, 82, 193);
+
 }
+
+
+
+
 
 
 h1 {
-    justify-content: center;
+   
+    text-align: center;
+    justify-content: center; 
+    padding-bottom: ;
+
 }
 
  .cpu {
-     color: Yellow;
-    height: 20vh;
+     color: rgb(234, 11, 182);
+     display: inline-block;
+     padding-bottom: 500px;
+     padding-right: 100px;
  }
+ 
 .result { 
-    color: red;
-  
-}
+    color: rgb(154, 62, 196);
+  padding-bottom: 200px;
+} 
 
 .user{
     color:blueviolet;
-
-
+    display: inline-block;
+    padding-left: 200px;
+    padding-right: 450px;
+    padding-bottom: 300px;
 }
 
 .refreshbtn {
@@ -66,7 +91,7 @@ h1 {
 
 .rock {
   
-}
+} 
 
 .paper {
  

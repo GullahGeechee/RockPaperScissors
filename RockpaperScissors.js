@@ -1,5 +1,5 @@
-const userChoiceDisplay = document.createElement('h1')
-const computerChoiceDisplay = document.createElement('h1')
+const userChoiceDisplay = document.createElement('h3')
+const computerChoiceDisplay = document.createElement('h3')
 const resultDisplay = document.createElement('h1')
 //const reset = document.createElement('h1')
 const gameGrid = document.getElementById('game')
@@ -18,16 +18,21 @@ resultDisplay.classList.add('result')
 gameGrid.append(userChoiceDisplay, computerChoiceDisplay, resultDisplay, /*reset*/)
 
 
+// const gameGrid2 = document.('div')
+// gameGrid2.classList.add('forBtns')
+
 
 //needed in js for volume 
+// window.addEventListener('load', function(){
 
-  /*var music = document.getElementById("audio");
+
+
+// })
+
+  /*let music = document.getElementById("audio");
   audio.volume = 0.2;*/
 
-
-
-
-
+ 
 
 
 
@@ -164,6 +169,11 @@ const getResult = () => {
 
   }
 }
+
+
+
+
+
 
 /*
 
