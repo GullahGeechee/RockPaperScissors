@@ -48,5 +48,5 @@ None
 5. [Syntax Information for styling and functionality](https://www.w3schools.com/html/default.asp)
 6. [![Game structure Idea 2](https://www.youtube.com/watch?v=qWPtKtYEsN4)](https://www.youtube.com/watch?v=qWPtKtYEsN4)
 7. [![inline](https://www.youtube.com/watch?v=x_i2gga-sYg&t=132s)](https://www.youtube.com/watch?v=gD3G67oPg-w )
-8.[![css position](https://www.youtube.com/watch?v=gD3G67oPg-w)](https://www.youtube.com/watch?v=x_i2gga-sYg&t=132s)
-9.[![css background ](https://www.youtube.com/watch?v=dr1y4m7iEoU&t=604s)](https://www.youtube.com/watch?v=dr1y4m7iEoU&t=604s)
+8. [![css position](https://www.youtube.com/watch?v=gD3G67oPg-w)](https://www.youtube.com/watch?v=x_i2gga-sYg&t=132s)
+9. [![css background ](https://www.youtube.com/watch?v=dr1y4m7iEoU&t=604s)](https://www.youtube.com/watch?v=dr1y4m7iEoU&t=604s)
