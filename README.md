@@ -17,7 +17,10 @@ Refresh button to restart rounds.
 
 ## Wireframe
 
-https://www.justinmind.com/usernote/tests/71323744/71324047/71324049/index.html
+[Rough Draft](https://www.justinmind.com/usernote/tests/71323744/71324047/71324049/index.html)
+
+<a href="https://www.justinmind.com/usernote/tests/71323744/71324047/71324049/index.html">link</a>
+
 
 ### Explanations of Technologies
 
@@ -36,15 +39,19 @@ Only tried to used the DOM Js. to increase Javascript understanding.
 3. Couldn't get background music to auto-play.
 
 ### Link to Hosted Site
-https://gullahgeechee.github.io/RockPaperScissors/
+
+
+[GameGit](https://gullahgeechee.github.io/RockPaperScissors/)
+
+<a href="https://gullahgeechee.github.io/RockPaperScissors/">link</a>
+
 #### Installation Instructions
 
 None
 
 ### Resources
 
-1. [![Game structure Idea](https://www.youtube.com/watch?v=RwFeg0cEZvQ&t=28s)](https://www.youtube.com/watch?v=RwFeg0cEZvQ&t=28s)
-2. [page inspiration](https://www.pinterest.com/search/pins/?q=kawaii%20aesthetic%20pink&rs=typed&term_meta[]=kawaii%7Ctyped&term_meta[]=aesthetic%7Ctyped&term_meta[]=pink%7Ctyped)
+1. [page inspiration](https://www.pinterest.com/search/pins/?q=kawaii%20aesthetic%20pink&rs=typed&term_meta[]=kawaii%7Ctyped&term_meta[]=aesthetic%7Ctyped&term_meta[]=pink%7Ctyped)
 3. Perscholas video review
 4. [Syntax Information for styling and functionality](https://www.pinterest.com/search/pins/?q=kawaii%20aesthetic%20pink&rs=typed&term_meta[]=kawaii%7Ctyped&term_meta[]=aesthetic%7Ctyped&term_meta[]=pink%7Ctyped)
 5. [Syntax Information for styling and functionality](https://www.w3schools.com/html/default.asp)
