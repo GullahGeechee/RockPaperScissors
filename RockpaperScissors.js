@@ -24,16 +24,22 @@ gameGrid.append(userChoiceDisplay, computerChoiceDisplay, resultDisplay, /*reset
 
 
 //needed in js for volume 
-// window.addEventListener('load', function(){
+ window.addEventListener('load', function(){
 
+    let music = document.getElementById("music1").play();
+     music.autoplay = true;
+    // music.load();
+    // music.play();
 
-
-// })
+ })
 
   /*let music = document.getElementById("audio");
   audio.volume = 0.2;*/
 
- 
+// let music = document.getElementById("music1");
+//   music.autoplay = true;
+//   music.load();
+//   music.play();
 
 
 

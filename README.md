@@ -6,7 +6,7 @@ Rock Paper Scissors Game With a Kawaii Lofi Vibe
 
 ## Description
 
-Rock Paper Scissors Game With a Kawaii Lofi Relaxing Vibe.
+Rock Paper Scissors Game With a Kawaii, Magical girl, Lofi inspiration.
 Player plays against the computer. with results showing computer and use choices and result. Best 2 out of 3. Refresh button to restart rounds. Both results displayed showing computer and use choices and result.
 
 ## Rules
@@ -17,9 +17,9 @@ Refresh button to restart rounds.
 
 ## Wireframe
 
-[Rough Draft](https://www.justinmind.com/usernote/tests/71323744/71324047/71324049/index.html)
+[Wireframe Inspo](https://www.justinmind.com/usernote/tests/71323744/71324047/71324049/index.html)
 
-<a href="https://www.justinmind.com/usernote/tests/71323744/71324047/71324049/index.html">link</a>
+<a href="https://www.justinmind.com/usernote/tests/71323744/71324047/71324049/index.html">Click here</a>
 
 
 ### Explanations of Technologies
@@ -42,8 +42,7 @@ Only tried to used the DOM Js. to increase Javascript understanding.
 
 
 [GameGit](https://gullahgeechee.github.io/RockPaperScissors/)
-
-<a href="https://gullahgeechee.github.io/RockPaperScissors/">link</a>
+<a href="https://gullahgeechee.github.io/RockPaperScissors/">Game here</a>
 
 #### Installation Instructions
 
